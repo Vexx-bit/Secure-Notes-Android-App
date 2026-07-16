@@ -1,0 +1,2 @@
+package com.zetech.securenotes.model
+data class Note(val id: Long, val userId: Long, val title: String, val content: String, val createdAt: Long)

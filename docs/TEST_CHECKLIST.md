@@ -1,0 +1,16 @@
+# CAT 3 test checklist
+- [ ] Empty email and password show errors and perform no database query.
+- [ ] Invalid email format is rejected.
+- [ ] Password shorter than eight characters is rejected.
+- [ ] Duplicate email sign-up is rejected.
+- [ ] Wrong password displays a generic error.
+- [ ] Correct login opens Notes.
+- [ ] Notes from one account are not visible to another account.
+- [ ] FAB opens Add Note; blank title/content are rejected.
+- [ ] Saved notes show title, subtitle, and date newest-first.
+- [ ] Long press confirms deletion.
+- [ ] Bottom navigation switches Notes/Account.
+- [ ] System, light, and dark theme survive restart.
+- [ ] Privacy statement is visible.
+- [ ] Logout prevents Back from reopening notes.
+- [ ] Rotation does not crash any screen.

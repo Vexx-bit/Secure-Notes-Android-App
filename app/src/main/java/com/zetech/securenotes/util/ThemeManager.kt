@@ -1,0 +1,4 @@
+package com.zetech.securenotes.util
+import android.content.Context
+import androidx.appcompat.app.AppCompatDelegate
+object ThemeManager { const val SYSTEM="system";const val LIGHT="light";const val DARK="dark";private const val PREFS="app_settings";private const val KEY="theme_mode";fun saved(context:Context)=context.getSharedPreferences(PREFS,Context.MODE_PRIVATE).getString(KEY,SYSTEM)?:SYSTEM;fun save(context:Context,mode:String){context.getSharedPreferences(PREFS,Context.MODE_PRIVATE).edit().putString(KEY,mode).apply();apply(mode)};fun applySavedTheme(context:Context)=apply(saved(context));private fun apply(mode:String){AppCompatDelegate.setDefaultNightMode(when(mode){LIGHT->AppCompatDelegate.MODE_NIGHT_NO;DARK->AppCompatDelegate.MODE_NIGHT_YES;else->AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM})} }
