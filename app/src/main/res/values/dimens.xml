@@ -1,1 +1,22 @@
-<resources><dimen name="space_xs">4dp</dimen><dimen name="space_sm">8dp</dimen><dimen name="space_md">16dp</dimen><dimen name="space_lg">24dp</dimen><dimen name="space_xl">32dp</dimen><dimen name="corner_md">12dp</dimen><dimen name="corner_lg">20dp</dimen><dimen name="screen_padding">24dp</dimen><dimen name="logo_size">72dp</dimen><dimen name="fab_margin">20dp</dimen><dimen name="item_min_height">96dp</dimen><dimen name="button_min_height">52dp</dimen><dimen name="notes_bottom_padding">72dp</dimen><dimen name="profile_size">96dp</dimen><dimen name="profile_text_size">26sp</dimen><dimen name="small_text_size">12sp</dimen><dimen name="touch_min_height">48dp</dimen><dimen name="card_stroke">1dp</dimen><dimen name="privacy_line_spacing">4dp</dimen></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_sm">8dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+    <dimen name="space_lg">24dp</dimen>
+    <dimen name="space_xl">32dp</dimen>
+    <dimen name="corner_md">12dp</dimen>
+    <dimen name="corner_lg">20dp</dimen>
+    <dimen name="screen_padding">24dp</dimen>
+    <dimen name="logo_size">72dp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="item_min_height">96dp</dimen>
+    <dimen name="button_min_height">52dp</dimen>
+    <dimen name="notes_bottom_padding">72dp</dimen>
+    <dimen name="profile_size">96dp</dimen>
+    <dimen name="profile_text_size">26sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="touch_min_height">48dp</dimen>
+    <dimen name="card_stroke">1dp</dimen>
+    <dimen name="privacy_line_spacing">4dp</dimen>
+</resources>
