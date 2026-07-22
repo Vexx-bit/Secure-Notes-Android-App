@@ -1,15 +1,21 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built artifacts
+build/
+app/build/
+.gradle/
+
+# Local configuration
 local.properties
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Other
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+*.keystore
+
+# Keep gradle wrapper
+!/gradle/wrapper/gradle-wrapper.jar
